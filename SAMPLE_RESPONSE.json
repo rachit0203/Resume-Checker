@@ -1,0 +1,44 @@
+{
+  "ats_score": 72,
+  "strengths": [
+    "Relevant experience with Python and JavaScript",
+    "Demonstrated project management skills",
+    "Experience with REST API design",
+    "Strong problem-solving background",
+    "Leadership experience managing technical teams"
+  ],
+  "missing_keywords": [
+    "React",
+    "TypeScript",
+    "AWS",
+    "Docker",
+    "Git",
+    "Agile",
+    "Kubernetes",
+    "CI/CD"
+  ],
+  "improvement_suggestions": [
+    "Add React and TypeScript to your skills section—explicitly mentioned in JD as preferred",
+    "Include any AWS or cloud platform experience, even if limited to projects",
+    "Use 'Agile' and 'sprint-based' terminology when describing team projects and workflow",
+    "Mention Docker, containerization, or deployment experience—critical for DevOps roles"
+  ],
+  "optimized_bullets": [
+    {
+      "original": "Built a web application using modern JavaScript",
+      "optimized": "Architected and deployed React applications with TypeScript, leveraging AWS Lambda and Docker for scalable microservices",
+      "reason": "Incorporates key JD keywords (React, TypeScript, AWS, Docker) while preserving factual experience claims—assumes technical stack alignment"
+    },
+    {
+      "original": "Worked in a team environment managing projects",
+      "optimized": "Led cross-functional Agile teams (6-8 engineers) through sprint cycles using Git version control, delivering features on-time with 95% sprint velocity consistency",
+      "reason": "Replaces generic phrasing with specific ATS-friendly keywords (Agile, Git, sprint) that match JD requirements and quantify impact"
+    },
+    {
+      "original": "Improved system performance",
+      "optimized": "Optimized application performance by implementing CI/CD pipelines (Jenkins/GitHub Actions) and containerized services with Docker, reducing deployment time by 40%",
+      "reason": "Adds critical missing keywords (CI/CD, Docker) and includes quantifiable results for stronger ATS signal and recruiter appeal"
+    }
+  ],
+  "final_summary": "Your resume demonstrates solid foundational experience with relevant technical skills. However, missing explicit mentions of React, TypeScript, and AWS creates gaps against this JD. Strategically adding these keywords—particularly in a skills section and as evidence in project descriptions—could improve your ATS match from 72 to 85+. Your leadership experience is a differentiator; ensure it's highlighted clearly."
+}
