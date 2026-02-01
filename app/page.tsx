@@ -204,7 +204,7 @@ ${result.final_summary}
       <footer className="bg-gray-900 text-gray-300 py-8 px-4 mt-16">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-sm">
-            Made with ❤️ for job seekers • Powered by Groq LLaMA-3.3-70B
+            Made with Love for job seekers • Powered by Groq LLaMA-3.3-70B
           </p>
           <p className="text-xs text-gray-500 mt-2">
             Your data is stored securely in your personal account
