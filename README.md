@@ -11,8 +11,7 @@ An AI-powered resume analyzer that helps job seekers optimize their resumes for 
 
 ## 🚀 Live Demo
 
-**Deployed URL:** [Add your Vercel/Netlify link here]
-
+**Deployed URL:** https://resume-checker-silk.vercel.app/
 ---
 
 ## 📝 Technical Write-up
@@ -96,7 +95,6 @@ resume-checker/
 │   ├── prompt-engineering.ts     # AI prompts (anti-hallucination)
 │   └── supabase.ts               # Database operations
 └── middleware.ts                 # Route protection
-```
 
 ---
 
@@ -136,16 +134,8 @@ JWT_SECRET=your-super-secret-jwt-key-min-32-chars
 
 Run the SQL schema in your Supabase SQL Editor:
 
-```bash
-# Copy contents of database-schema-custom-auth.sql
-# Paste into Supabase SQL Editor and run
-```
 
 ### 4. Run Development Server
-
-```bash
-npm run dev
-```
 
 Open [http://localhost:3000](http://localhost:3000) — you'll be redirected to login.
 
@@ -180,74 +170,13 @@ Every AI response is validated:
 
 ## 📸 Screenshots
 
-*Add screenshots of your app here*
-
----
-
-## 🧪 Testing the App
-
-1. Sign up with any email/password
-2. Paste a resume (minimum 50 characters)
-3. Paste a job description (minimum 50 characters)
-4. Click "Analyze Resume"
-5. View your ATS score and recommendations!
-
----
-
-## 📄 Sample API Response
-
-```json
-{
-  "ats_score": 72,
-  "strengths": [
-    "Relevant experience with Python and JavaScript",
-    "Demonstrated project management skills"
-  ],
-  "missing_keywords": ["React", "TypeScript", "AWS", "Docker"],
-  "improvement_suggestions": [
-    "Add React and TypeScript to your skills section",
-    "Include any AWS or cloud platform experience"
-  ],
-  "optimized_bullets": [
-    {
-      "original": "Built a web application using modern JavaScript",
-      "optimized": "Architected and deployed React applications with TypeScript...",
-      "reason": "Incorporates key JD keywords while preserving factual claims"
-    }
-  ],
-  "final_summary": "Your resume demonstrates solid foundational experience..."
-}
-```
-
----
-
-## 🚀 Deployment
-
-### Vercel (Recommended)
-
-```bash
-npm i -g vercel
-vercel
-```
-
-Add environment variables in Vercel dashboard.
-
-### Other Platforms
-Works on any platform that supports Next.js: Netlify, Railway, Render, etc.
-
----
-
-## 📝 License
-
-MIT License - feel free to use this for your own projects!
-
----
+![alt text](image.png)
 
 ## 👤 Author
 
-**Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- Email: your.email@example.com
+**Rachit Mishra**
+- GitHub: [rachit0203](https://github.com/rachit0203)
+- Email: [mishrarachitalld@gmail.com]
 
 ---
 
